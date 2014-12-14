@@ -70,11 +70,21 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Bucket.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Simulation.cpp" />
+    <ClCompile Include="Waterfall.cpp" />
+    <ClCompile Include="WaterMolecule.cpp" />
+    <ClCompile Include="WaterPacket.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Bucket.h" />
+    <ClInclude Include="Constants.h" />
     <ClInclude Include="Container.h" />
+    <ClInclude Include="Simulation.h" />
+    <ClInclude Include="Waterfall.h" />
+    <ClInclude Include="WaterMolecule.h" />
+    <ClInclude Include="WaterPacket.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
